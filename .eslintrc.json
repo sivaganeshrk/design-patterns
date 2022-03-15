@@ -9,14 +9,14 @@
     "eslint:recommended",
     "plugin:eslint-comments/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/typescript",
-    "plugin:functional/lite",
     "prettier",
     "prettier/@typescript-eslint"
   ],
   "globals": { "BigInt": true, "console": true, "WebAssembly": true },
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "functional/prefer-type-literal":"off",
+    "import-order":"off",
     "eslint-comments/disable-enable-pair": [
       "error",
       { "allowWholeFile": true }
